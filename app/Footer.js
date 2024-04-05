@@ -9,7 +9,7 @@ const Footer = () => {
             <div style={{borderTop: "3px solid #103c00", position: "relative", top: "-170px", zIndex: "0"}}></div>
             <div className="max-w-6xl mx-auto py-4 px-6 flex items-center justify-between">
 
-                <div className="flex items-center">
+                <div className="footerLogo flex items-center">
                     <Image style={{position: "relative", top: "-150px", width:"47%"}}
                         src={footerLogo}
                         alt="Utah Grown"
@@ -19,10 +19,10 @@ const Footer = () => {
                     />
                     <span style={{ position: "relative", top: "-110px", color: "#35711f", left: "11%", width: "60%", fontSize: "20px"}} className="text-white ml-4">UTAH'S CANNABIS COMMUNITY</span>
                 </div>
-                <div className="text-white">
+                <div className="copyText text-white">
                     ©2023 All Rights Reserved.
                 </div>
-                <div>
+                <div className="footerLinks">
                     <Link legacyBehavior href="#">
                         <a style={{marginLeft: "20px", marginRight: "50px"}} className="text-white  mx-2">Terms and Conditions</a>
                     </Link>

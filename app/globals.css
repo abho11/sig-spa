@@ -1840,4 +1840,470 @@ body,html {
     padding-right: 0
   }
 }
+/* Large devices (desktops, 1024px and up) */
+
+  .header-nav {
+    position: absolute;
+    top: 0.75rem;
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .header-logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 1920px;
+  }
+
+  .header-logo {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .header-green-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+  }
+
+  .header-title {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.45rem;
+  }
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 968px) {
+  .header-nav {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .header-logo-container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .header-title {
+    font-size: 1.875rem;
+  }
+}
+
+
+@media (max-width: 968px) {
+  .header-nav {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .header-logo-container {
+    top: -600px;
+    left: 17%;
+    transform: translateY(-50%);
+    width: 550px!important;
+  }
+
+  .header-title {
+    font-size: 2.25rem;
+  }
+  .titleTag {
+    font-size: 30px;
+  }
+  .locationCon h3 {
+    font-size: 19px!important;
+  }
+  .locationCon {
+    width: 80px!important;
+    margin-left: 60px!important;
+  }
+  .dateCon time, p{
+    font-size: 19px!important;
+  }
+  .dateCon {
+    position: relative;
+    left: 80px;
+  }
+  .LinkCon a {
+    font-size: 14px!important;
+  }
+  .LinkCon {
+    position: relative;
+    left: 17px;
+  }
+  .stepsCon h2{
+    font-size: 18px!important;
+  }
+  .stepBox h3{
+    font-size: 15px!important;
+  }
+  .stepBox {
+    margin-left: 0px!important;
+  }
+  .stepBox img {
+    left : 6% !important;
+  }
+  .stepItem {
+    position: relative;
+    left: -47px;
+  }
+  .img2 {
+    position: relative;
+    left: 108px;
+    top: -37px;
+    width: 43px;
+  }
+  .stepBox2 {
+    position: relative;
+    left: 7%!important;
+  }
+  .stepList {
+    font-size: 14px!important;
+  }
+  .stepImg3 {
+    left: 4%!important;
+    width: 55px;
+  }
+  .stepBox3 {
+    position: relative;
+    top: 38px;
+  }
+  .stepBox3 h3 {
+    font-size: 15px!important;
+    position: relative;
+    top: -31px!important;
+    left: -11%!important;
+  }
+  .stepBox3 p {
+    font-size: 15px!important;
+    position: relative;
+    top: -5px!important;
+    left: -11%!important;
+  }
+  .stepBox3 ul {
+    font-size: 15px!important;
+    left: 20px!important;
+  }
+  .leafAd {
+    width: 100% !important;
+    margin-top: 10px!important;
+    margin-bottom: 30px!important;
+  }
+  .manImg {
+    width: 90% !important;
+  }
+  .cardText {
+    width: 90% !important;
+    top: -163px!important;
+  }
+  .cardText h2 {
+    font-size: 25px!important;
+    margin-bottom: 20px!important;
+  }
+  .cardText p {
+    line-height: 33px!important;
+  }
+  .reviewCon {
+    top: -220px!important;
+    position: relative;
+  }
+  .reviewCon h2 {
+    top: 167px!important;
+    color: #0b2e13;
+    font-size: 25px!important;
+  }
+  .reviewCon a {
+    top: 200px!important;
+  }
+  #faq {
+    margin-top: 0px!important;
+    width: 90%;
+  }
+  #faq h2 {
+    font-size: 30px!important;
+    text-align: center;
+  }
+  #faq ul li{
+    font-size: 14px!important;
+    margin-left: 20px;
+    list-style: auto;
+  }
+  #pharmacies h2 {
+    font-size: 22px!important;
+    text-align: center;
+  }
+  #pharmacies {
+    width: 350px;
+  }
+
+  #pharmacies table{
+    margin-left: -29px;
+  }
+  .tableAd{
+    font-size: 11px!important;
+  }
+  .tableAd a {
+    left:12% !important
+  }
+  .newSpecial a{
+    left: -13% !important;
+    font-size: 16px!important;
+  }
+  .aboutCon {
+    width: 85%;
+  }
+  .aboutCon h2 {
+    font-size: 25px!important;
+    text-align: center;
+  }
+  .aboutCon p {
+    font-size: 14px!important;
+    text-align: justify;
+  }
+  .footerLogo img{
+    top: -149px!important;
+    width: 74% !important;
+    left: 20% !important;
+  }
+  .footerLogo span {
+    color: white!important;
+    left: -66%!important;
+    width: 60%!important;
+    font-size: 13px!important;
+    top : 0px!important;
+  }
+  .footerLinks {
+    font-size: 13px!important;
+    margin-right: 20px;
+    width: 100%;
+  }
+  .footerLinks a {
+    margin-right: 13px!important;
+    margin-left: 5px!important;
+  }
+  .copyText {
+    font-size: 13px !important;
+    margin-left: -55px;
+  }
+
+}
+/*Mobile devices */
+@media (max-width: 600px) {
+
+  .navLinks {
+    gap: 30px;
+    position: relative;
+    left: -22px;
+  }
+  .bgContainer{
+    height: 566px!important;
+  }
+  .bgContainer img {
+    top: -70px!important;
+  }
+  .header-green-bar{
+    position: relative;
+    top: 186px!important;
+  }
+  .header-logo-container {
+    top: -632px;
+    left: 9%;
+    transform: translateY(-50%);
+    width: 400px!important;
+  }
+
+  .header-title {
+    font-size: 1.85rem;
+    position: relative;
+    top: -40px;
+  }
+  .titleTag {
+    font-size: 20px;
+  }
+  .locationCon h3 {
+  font-size: 16px!important;
+  }
+  .locationCon {
+    width: 60px!important;
+    margin-left: 1px!important;
+  }
+  .dateCon time, p{
+    font-size: 16px!important;
+  }
+  .dateCon {
+    position: relative;
+    left: 50px;
+  }
+  .LinkCon a {
+    font-size: 14px!important;
+  }
+  .LinkCon {
+    position: relative;
+    left: 57px;
+  }
+  .stepsCon h2{
+    font-size: 18px!important;
+  }
+  .stepBox h3{
+    font-size: 15px!important;
+  }
+  .stepBox {
+    margin-left: 0px!important;
+  }
+  .stepBox img {
+    left : 6% !important;
+  }
+  .stepItem {
+    position: relative;
+    left: -47px;
+  }
+  .img2 {
+    position: relative;
+    left: 108px;
+    top: -37px;
+    width: 43px;
+  }
+  .stepBox2 {
+    position: relative;
+    left: 7%!important;
+  }
+  .stepList {
+    font-size: 14px!important;
+  }
+  .stepImg3 {
+    left: 4%!important;
+    width: 55px;
+  }
+  .stepBox3 {
+    position: relative;
+    top: 38px;
+  }
+  .stepBox3 h3 {
+    font-size: 15px!important;
+    position: relative;
+    top: -31px!important;
+    left: -11%!important;
+  }
+  .stepBox3 p {
+    font-size: 15px!important;
+    position: relative;
+    top: -5px!important;
+    left: -11%!important;
+  }
+  .stepBox3 ul {
+    font-size: 15px!important;
+    left: 20px!important;
+  }
+  .leafAd {
+    width: 100% !important;
+    margin-top: 10px!important;
+    margin-bottom: 30px!important;
+  }
+
+  .manImg {
+    width: 90% !important;
+  }
+  .cardText {
+    width: 90% !important;
+    top: -166px;
+  }
+  .cardText h2 {
+    font-size: 25px!important;
+    margin-bottom: 20px!important;
+  }
+  .cardText p {
+    line-height: 33px!important;
+  }
+  .reviewCon {
+    top: -220px!important;
+    position: relative;
+  }
+  .reviewCon h2 {
+    top: 167px!important;
+    color: #0b2e13;
+    font-size: 25px!important;
+  }
+  .reviewCon a {
+    top: 200px!important;
+  }
+  #faq {
+    margin-top: 0px!important;
+    width: 90%;
+  }
+  #faq h2 {
+    font-size: 30px!important;
+    text-align: center;
+  }
+  #faq ul li{
+    font-size: 14px!important;
+    margin-left: 20px;
+    list-style: auto;
+  }
+  #pharmacies h2 {
+    font-size: 22px!important;
+    text-align: center;
+  }
+  #pharmacies {
+    width: 350px;
+  }
+
+  #pharmacies table{
+    margin-left: -29px;
+  }
+  .tableAd{
+    font-size: 11px!important;
+  }
+  .tableAd a {
+    left:12% !important
+  }
+  .newSpecial a{
+    left: -13% !important;
+    font-size: 16px!important;
+  }
+  .aboutCon {
+    width: 85%;
+  }
+  .aboutCon h2 {
+    font-size: 25px!important;
+    text-align: center;
+  }
+  .aboutCon p {
+    font-size: 14px!important;
+    text-align: justify;
+  }
+  .footerLogo img{
+    top: -149px!important;
+    width: 74% !important;
+    left: 20% !important;
+  }
+  .footerLogo span {
+    color: white!important;
+    left: -66%!important;
+    width: 60%!important;
+    font-size: 13px!important;
+    top : 0px!important;
+  }
+  .footerLinks {
+    font-size: 13px!important;
+    margin-right: 20px;
+    width: 100%;
+  }
+  .footerLinks a {
+    margin-right: 13px!important;
+    margin-left: 5px!important;
+  }
+  .copyText {
+    font-size: 13px !important;
+    margin-left: -55px;
+  }
+}
+
 

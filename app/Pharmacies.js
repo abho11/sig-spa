@@ -71,27 +71,27 @@ const pharmaciesData = [
 const PharmacyItem = ({ name, addresses, phoneNumbers, website, isSpecialOffer }) => (
     <>
         <tr className="border-b">
-            <td className="py-4 px-6">
-                <div style={{fontWeight: "600", marginBottom: "10px", fontSize: "22px"}} className="font-semibold text-ltGreen">{name}</div>
-                <div style={{fontWeight: "600", fontSize: "1.0rem"}} className="text-sm text-mdGrey">
+            <td className="tableAd py-4 px-6">
+                <div style={{fontWeight: "600", marginBottom: "10px", fontSize: "22px"}} className="tableAd font-semibold text-ltGreen">{name}</div>
+                <div style={{fontWeight: "600", fontSize: "1.0rem"}} className=" tableAd text-sm text-mdGrey">
                     {addresses.map((address, index) => (
-                        <div key={index}>{address}</div>
+                        <div className="tableAd" key={index}>{address}</div>
                     ))}
                 </div>
             </td>
-            <td style={{position:"relative", left: "15%", fontWeight: "600", fontSize: "1.0rem"}} className="py-4 px-6 text-mdGrey">
+            <td style={{position:"relative", left: "15%", fontWeight: "600", fontSize: "1.0rem"}} className="tableAd py-4 px-6 text-mdGrey">
                 {phoneNumbers.map((phone, index) => (
                     <div key={index}>{phone}</div>
                 ))}
             </td>
-            <td style={{position:"relative", left: "20%", fontWeight: "600", fontSize: "1.0rem"}} className="py-4 px-6 text-mdGrey" >
+            <td style={{position:"relative", left: "20%", fontWeight: "600", fontSize: "1.0rem"}} className="tableAd py-4 px-6 text-mdGrey" >
                 <a href={website} target="_blank" className="text-blue-600 hover:underline">{website}</a>
 
             </td>
         </tr>
         {isSpecialOffer && (
             <tr >
-                <td colSpan="3" className="py-3 px-6 text-center">
+                <td colSpan="3" className="newSpecial py-3 px-6 text-center">
                     <a style={{position:"relative", left:"-39%", borderRadius: "24px"}} href="#" className="bg-tan text-mdGreen font-medium py-2 px-4 rounded-full inline-block">
                         New Patient Specials
                     </a>

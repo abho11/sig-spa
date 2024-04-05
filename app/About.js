@@ -4,7 +4,7 @@ import aboutImage from '../public/images/NormalizeItUtah.png';
 const About = () => {
     return (
         <div style={{marginBottom: "70px"}} className="container mx-auto p-6 flex flex-col md:flex-row items-center max-w-6xl mx-auto p-6" id="about">
-            <div className="md:w-1/2">
+            <div className="aboutCon md:w-1/2">
                 <h2 style={{marginBottom: "30px", fontSize: "2.1rem", fontWeight:"600"}} className="text-3xl font-bold text-dkGreen mb-6">About Utah Grown</h2>
                 <p style={{fontWeight: "600", lineHeight: "40px", marginBottom:"60px"}} className="text-mdGrey mb-4">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
